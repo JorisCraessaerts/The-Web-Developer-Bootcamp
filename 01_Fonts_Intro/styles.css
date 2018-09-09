@@ -1,0 +1,20 @@
+body {
+	font-size: 16px;
+}
+
+p {
+	font-family: 'Raleway';
+	font-weight: 400;
+}
+
+h1 {
+	font-family: 'Indie Flower';
+	font-weight: 700;
+	font-size: 200px;
+	/* font-size: 200px; */
+	/* texkt-decoration: line-through; */
+}
+
+span {
+	font-size: 2em;
+}
