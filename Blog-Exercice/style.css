@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+}
+
+body {
+    border: 20px solid rgb(182, 182, 182);
+    width: 90%;
+    min-height: 92%;
+    margin: 1% auto 1% auto;
+    max-width: 960px;
+    font-family: sans-serif;
+}   
+
+article {
+    margin: 2%;
+}
+
+article:not(:last-of-type) {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+h3 {
+    color: rgb(96, 173, 221);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+article > p:first-of-type {
+    padding-left: 6px;
+    border-left: 4px solid rgb(211, 211, 211);
+}
